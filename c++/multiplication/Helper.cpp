@@ -7,6 +7,7 @@
 long long Helper::digits(long long x)
 {
 	/*********** INSERT YOUR CODE HERE ****************/
+  return 0;
 }
 
 /******************************************************/

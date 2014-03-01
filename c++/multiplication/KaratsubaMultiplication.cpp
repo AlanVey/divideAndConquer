@@ -8,4 +8,5 @@
 long long KaratsubaMultiplication::multiply(long long x, long long y)
 {
 	/*********** INSERT YOUR CODE HERE ****************/
+  return 0;
 }
