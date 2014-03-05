@@ -127,16 +127,27 @@ Insert your solution here
 
 \begin{figure}[h]
 
-\includegraphics[width=0.48\linewidth]{Insertion_VS_Merge.png}
-\includegraphics[width=0.48\linewidth]{Complete_Analysis.png}
+\includegraphics[width=0.48\linewidth]{sorting/im1.png}
+\includegraphics[width=0.48\linewidth]{sorting/im2.png}
 
-\caption{Plots comparing different time complexities of sorting algorithms.}
+\caption{Graphs used to approximate the turning point.}
+\label{fig:examples}
+\end{figure}
+
+\begin{figure}[h]
+
+\includegraphics[width=0.48\linewidth]{sorting/imh1.png}
+\includegraphics[width=0.48\linewidth]{sorting/imh2.png}
+
+\caption{Final analysis of time complexities for the 3 sorting algorithms.}
 \label{fig:examples}
 \end{figure}
 
 \subsection{Discussion}
 
-Turning point: 350
+The graphs in figure 2 are of insertion sort and merge sort. Both algorithms were tested with various input sizes (powers of two 1, 2, 3, ... 11) and the time taken to sort the input was recorded (in milliseconds). One can clearly see the exponential complexity of insertion sort however the nlog(n) complexity of merge sort appears almost linear in comparison. The graph on the right is of the same data however only up to an input size of 512 so that the point at which insertion sort becomes more efficient than merge sort for smaller input sizes is clearly visible (in this case 360).\\
+\newline
+The graphs in figure 3 are the same as those in figure 2 only now hybrid sort has also been plotted for the same input sizes. One can clearly see in the left graph that it is much more efficient than both other algorithms on larger data sizes. If we look at the graph on the right it also demonstrates an improvement in efficiency for input sizes smaller than 360 however at an input size of about 60 it seems to be slightly less efficient than insertion sort but still outperforms merge sort.
 
 \section{Integer Multiplication}
 

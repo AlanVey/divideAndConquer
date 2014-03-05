@@ -1,9 +1,0 @@
-set terminal png
-set output '../../latex/Complete_Analysis.png'
-set title "Insertion VS Merge"
-set ylabel "Running Time (ms)"
-set xlabel "Number of Items Inserted"
-set grid
-plot "timings_insertion.txt" with lines, \
-"timings_merge.txt" with lines, \
-"timings_hybrid.txt" with lines
